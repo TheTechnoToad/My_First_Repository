@@ -1,0 +1,12 @@
+body {
+	background-color: #FFF8DC;
+	color: black;
+	font-size: 22;
+	font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+.d1 {
+	background-color: #FFF8DC;
+	border: black 5px solid;
+	color: blue;
+} 
