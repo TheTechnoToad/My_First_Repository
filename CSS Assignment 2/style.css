@@ -1,12 +1,19 @@
 body {
 	background-color: #FFF8DC;
-	color: black;
+}
+
+#d1 {
+	background-color: cyan;
+	border: black 5px solid;
+	color: blue;
+	font-size: 22;
+	font-family: Times, "Times New Roman", Georgia, serif;
+} 
+
+#d2 {
+	background-color: cyan;
+	border: black 5px solid;
+	color: blue;
 	font-size: 22;
 	font-family: Times, "Times New Roman", Georgia, serif;
 }
-
-.d1 {
-	background-color: #FFF8DC;
-	border: black 5px solid;
-	color: blue;
-} 
