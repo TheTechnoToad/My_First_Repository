@@ -1,0 +1,20 @@
+body{							/* Customize body text color and background color*/
+	background-color:#ffcc99;
+	color: #003366;
+}
+
+.pGraph, .oList  { 				/*changes paragraph and organized list div to inline flex*/
+	display: inline-flex;
+}
+
+.uList {						/*changes unorganized list div to inline block*/
+	display: inline-block;
+}
+
+p{								/*shifts all paragraph text to the right*/
+	margin-left: 20px;
+}
+
+a:hover {						/*makes it so links get underlined as they are hovered over*/
+	text-decoration: underline;
+}
