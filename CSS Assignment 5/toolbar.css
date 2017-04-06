@@ -1,0 +1,8 @@
+.toolbar li{
+	border: solid 1px;										/*Border creation and styling*/
+	border-color: #f3f3f3, #bbb, #bbb, #f3f3f3;				/*Border coloring*/
+	margin: 0px;											/*Setting margins on table items to zero*/
+	padding: .5em;											/*Adjusting the padding to .5 units*/
+	zoom: 1;												/*Setting zoom to 1*/
+	background-color: #eeeeee;								/*Setting Background-color to #eeeeee*/
+}
