@@ -1,26 +1,31 @@
 
-
+/*Setting of font family for all text*/
 * {
 	font-family: 'Macondo', cursive;
 }
 
+/*Setting of background color for pages*/
 body {
 	background-color: #FFCC99;
 }
 
-p { 					/* I added superfluous styling inline on the about Usto fullfil the requirement. */
+/*setting font size of all paragraphs on pages*/
+p { 			
 	font-size: 1.5em;
 }
 
+/*setting background image for header*/
 #topDiv {
 	background-image: url("https://images-na.ssl-images-amazon.com/images/I/71irBn5jStL._SL1000_.jpg");
 }
 
+/*setting color and font-size for header text*/
 #title {
 	color: #B99E86;
 	font-size: 5em;
 }
 
+/*centering carousel*/
 #gallery {
 	float: right;
 
@@ -30,6 +35,8 @@ p { 					/* I added superfluous styling inline on the about Usto fullfil the req
 	
 }
 
+
+/*tweaks to navbar title and headers*/
 #nav2 {
 	margin-bottom: 0px;
 	font-size: 2.5em;
@@ -38,6 +45,7 @@ p { 					/* I added superfluous styling inline on the about Usto fullfil the req
 #nav1 {
 	font-size: 1.2em;
 }
+
 
 /* Sticky footer styles
 -------------------------------------------------- */
