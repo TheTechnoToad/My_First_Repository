@@ -1,0 +1,60 @@
+
+
+* {
+	font-family: 'Macondo', cursive;
+}
+
+body {
+	background-color: #FFCC99;
+}
+
+p { 					/* I added superfluous styling inline on the about Usto fullfil the requirement. */
+	font-size: 1.5em;
+}
+
+#topDiv {
+	background-image: url("https://images-na.ssl-images-amazon.com/images/I/71irBn5jStL._SL1000_.jpg");
+}
+
+#title {
+	color: #B99E86;
+	font-size: 5em;
+}
+
+#gallery {
+	float: right;
+
+	position: relative;
+	left: -50%;
+	text-align: left;
+	
+}
+
+#nav2 {
+	margin-bottom: 0px;
+	font-size: 2.5em;
+}
+
+#nav1 {
+	font-size: 1.2em;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  color: white;
+  background-color: black;
+}
