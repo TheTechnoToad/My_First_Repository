@@ -1,0 +1,20 @@
+var uGrade = prompt("Please enter a number grade. (Ex: 93)");
+
+if(100 >= uGrade && uGrade >= 90){
+  console.log("A");
+}
+else if(uGrade >=80){
+  console.log("B");
+}
+else if(uGrade >=70){
+  console.log("C");
+}
+else if(uGrade >=60){
+  console.log("D");
+}
+else if(uGrade >= 0 && uGrade < 60){
+  console.log("F"); 
+}
+else {
+  console.log("You have not entered a grade between 0 and 100");
+}
